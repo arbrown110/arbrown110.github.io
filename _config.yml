@@ -1,0 +1,20 @@
+# Site settings
+author: chic-caller-7520
+title: 
+header-img: img/home-bg.png
+email: arbrown110@gmail.com
+copyright_name: chic-caller-7520
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  arbrown110
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
