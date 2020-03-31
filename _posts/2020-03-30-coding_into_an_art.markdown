@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Coding into an Art"
-date:       2020-03-31 01:12:28 +0000
+date:       2020-03-30 21:12:29 -0400
 permalink:  coding_into_an_art
 ---
 
