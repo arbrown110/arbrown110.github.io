@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "***# Class me out!!***"
-date:       2020-04-30 01:34:56 +0000
+title:      "**Class me out!!**"
+date:       2020-04-29 21:34:57 -0400
 permalink:  class_me_out
 ---
 
