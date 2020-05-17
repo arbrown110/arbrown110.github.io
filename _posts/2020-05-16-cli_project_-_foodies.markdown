@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Cli Project - Foodies"
+title:      "Cli Project "Foodies""
 date:       2020-05-16 23:55:05 -0400
 permalink:  cli_project_-_foodies
 ---
