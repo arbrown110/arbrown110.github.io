@@ -1,15 +1,15 @@
 ---
 layout: post
 title:      "Grilled Guacamole variables"
-date:       2020-05-23 01:03:30 +0000
+date:       2020-05-22 21:03:31 -0400
 permalink:  grilled_guacamole_variables
 ---
 
 
-Class variables and instance variables were a big part of my project and choosing when would be the right time to use them within the scope of Objective Orientation .In my CLI project I danced within the two to be able to help the user navigate their cravings.
-
-
-Class variables are available across different objects. A class variable belongs to the class and is a characteristic of a class. They are preceded by the sign @@ and are followed by the variable name. In Foodies, my Dish class I present @@all = [] which you can determine the many number of objects that are being created. 
+Class variables and instance variables were a big part of my project . The biggest question was  choosing when would be the right time to use them within the scope of Objective Orientation .In my CLI project I  maneuvered between them to be able to help the user navigate their cravings.
+ 
+ 
+Class variables are the same value  across all class instances.  They are preceded by the sign @@ and are followed by the variable name.Class variables are also available to both instance methods and class methods. These variables can be used to store data that belongs to a class, but not to its instances. In Foodies, my Dish class I present @@all = [] which you can determine the many number of objects that are being created. 
 
 ```
 
@@ -48,7 +48,7 @@ Instance variables are available across methods for any instance or object. That
 
   ```
 	def print_dishes(dishes)
-	    sorted_dishes = dishes.sort_by{|dish|[dish.name.length]}
+	    sorted_dishes = dishes.sort_by_length
 	    puts "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ "
 	    puts "Here are some  #{@cuisine} dishes."
 	    sorted_dishes.each.with_index(1) do |dish ,index|
@@ -62,7 +62,8 @@ Instance variables are available across methods for any instance or object. That
 
 
 
-Within my class CLI  file above , I decided to use a instance due it’s ability to communicate with my Dish file .This gives me the ability to access the functionally of the different cuisine dishes  and present them to the user. As we know normal variables cannot and class variables would more than just @cuisine. A class variable would give too much of the information at one time, making it impossible to give the user exactly what they are looking for when the user is just looking to utilize one object within the system.
+Within my class CLI  file above , I decided to use an instance due to  its ability to communicate with my Dish file .This gives me the ability to access the information of the different cuisine dishes  and present them to the user. The instance variables I chose were better alternatives than class variables due to  the data not sharing across the inheritance chain shared by the Class and subclasses.
 
-In conclusion, my usage of Class and Instance variable made it possible to have  the ability to be shared among the class with all of it’s descendants from the parent class  and to have the  ability to have separate instance where it is not shared.
+In conclusion, my usage of Class and Instance variables made it possible to have  the ability to take advantage of the inheritance chain  of Class variables  and to navigate outside of it. This made it possible to supply the users with delicious dishes from all over within seconds. 
+
 
